@@ -40,7 +40,7 @@ const About = () => {
       className='mt-4 ml-1 text-secondary text-[17px] max-w-3xl leading-[30px]'>
         I am Anubhav Mishra, a 3rd-year Computer Science Engineering student at Kamla Nehru Institute of Technology, Sultanpur. I have skills in C, C++, HTML, CSS, Tailwind, ReactJS, JavaScript, ReduxJS, Node.js, Express.js, and MongoDB. I’ve worked on projects to enhance my frontend development skills and am currently seeking internships or remote work opportunities, specializing in ReactJS. 
       </motion.p>
-      <div className='mt-20 flex flex-wrap gap-10 mx-auto'>
+      <div className='mt-20 flex flex-wrap gap-10 justify-center mx-auto'>
         {
           services.map((service, index) => (
             <ServiceCard key={service.title} index={index} {...service} />
