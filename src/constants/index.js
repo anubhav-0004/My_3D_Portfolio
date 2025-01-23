@@ -15,14 +15,12 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    framer,
     carrent,
     jobit,
     tripguide,
     threejs,
+    anubhav,
   } from "../assets";
   
   export const navLinks = [
@@ -42,21 +40,21 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "MERN Developer",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Frontend Developer",
       icon: mobile,
     },
     {
       title: "Backend Developer",
       icon: backend,
     },
-    {
-      title: "Content Creator",
-      icon: creator,
-    },
+    // {
+    //   title: "Content Creator",
+    //   icon: creator,
+    // },
   ];
   
   const technologies = [
@@ -65,28 +63,20 @@ import {
       icon: html,
     },
     {
-      name: "CSS 3",
+      name: "CSS 5",
       icon: css,
     },
     {
       name: "JavaScript",
       icon: javascript,
     },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
+    // {
+    //   name: "TypeScript",
+    //   icon: typescript,
+    // },
     {
       name: "React JS",
       icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
     },
     {
       name: "Node JS",
@@ -97,6 +87,14 @@ import {
       icon: mongodb,
     },
     {
+      name: "Redux Toolkit",
+      icon: redux,
+    },
+    {
+      name: "Tailwind CSS",
+      icon: tailwind,
+    },
+    {
       name: "Three JS",
       icon: threejs,
     },
@@ -105,59 +103,28 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "framer",
+      icon: framer,
     },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    // {
+    //   name: "figma",
+    //   icon: figma,
+    // },
+    // {
+    //   name: "docker",
+    //   icon: docker,
+    // },
   ];
   
   
   
   const projects = [
   {
-    name: "Car Rent",
+    name: "Sandesh: Chat App",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Sandesh is a feature-rich chat application designed for both users and admins. It offers personal and group chat functionalities, enabling seamless communication. Users can create and manage groups, share messages in real-time, and enjoy an intuitive interface for enhanced user experience.",
     iconBg: "#E6DEDD",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-    live_link: "https://car-rent-platform.example.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    iconBg: "#E6DEDD",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
       {
         name: "react",
         color: "blue-text-gradient",
@@ -167,38 +134,89 @@ import {
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-    live_link: "https://job-it-platform.example.com/",
+    image: carrent,
+    source_code_link: "https://github.com/anubhav-0004/ChatApp_frontend",
+    live_link: "https://chat-app-frontend-anubhav-0004-projects.vercel.app/",
   },
   {
-    name: "Trip Guide",
+    name: "Shopping Web",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "This is a modern shopping application built with React, Tailwind CSS, and Redux. It fetches all products dynamically from an API, allowing users to browse a wide range of items. The app features a robust cart system where users can effortlessly add products, manage their selections, and experience a smooth and responsive interface for an enjoyable shopping experience.",
     iconBg: "#E6DEDD",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "redux toolkit",
+        color: "white-text-gradient",
+      },
+      {
+        name: "API",
         color: "green-text-gradient",
+      },
+      
+    ],
+    image: jobit,
+    source_code_link: "https://github.com/anubhav-0004/Shop_App",
+    live_link: "https://anubhav-shop-app.netlify.app/",
+  },
+  {
+    name: "Tour Planner",
+    description:
+      "It is a frontend travel planning website built using React and Tailwind CSS. It helps users plan trips based on their budget by showcasing tailored travel options. Users can browse destinations, mark places as 'interested' or 'not interested' and add preferred locations to their wishlist. The total estimated cost for the selected destinations is calculated and displayed, making travel planning easy and intuitive.",
+    iconBg: "#E6DEDD",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      // {
+      //   name: "",
+      //   color: "pink-text-gradient",
+      // },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/anubhav-0004/Plan_a_tour",
+    live_link: "https://anubhav-tourplanner.netlify.app/",
+  },
+  {
+    name: "Currency Converter",
+    description:
+      "Currency Converter is a web application built using HTML, plain CSS, and JavaScript. It allows users to select two countries and convert currency from one to another. Users can input the amount for the first currency, and the app calculates the equivalent value in the second currency using real-time exchange rates fetched from an API. This tool provides a simple and efficient solution for currency conversion needs.",
+    iconBg: "#E6DEDD",
+    tags: [
+      {
+        name: "Html",
+        color: "blue-text-gradient",
       },
       {
         name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JavaScript",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
-    live_link: "https://trip-guide-platform.example.com/",
+    source_code_link: "https://github.com/anubhav-0004/Currency-Converter",
+    live_link: "https://anubhav-0004.github.io/Currency-Converter/",
   },
 ];
 
   
-  export { services, technologies, projects };
+  export { services, technologies, projects, anubhav };

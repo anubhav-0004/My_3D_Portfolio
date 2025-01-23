@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 import Text from "../components/Text";
+import { anubhav } from "../assets";
 
 const Hero = () => {
   return (
@@ -15,6 +16,8 @@ const Hero = () => {
           <div className="w-1 sm:h-80 h-52 violet-gradient"></div>
         </div>
         <div className="max-sm:mt-0 max-lg:mt-9">
+          <img
+          className="w-40 h-40 rounded-[40%] object-cover ml-4 md:hidden" src={anubhav} alt="anubhav" />
           <h1
             className={`${styles.heroHeadText} max-sm:font-semibold max-sm:text-[2.2rem] max-sm:leading-[2.5rem] text-white max-sm:mt-7`}
           >
@@ -39,7 +42,7 @@ const Hero = () => {
         </div>
       </div>
         <ComputersCanvas />
-      <div className="absolute sm:bottom-2 max-lg:top-[90%] sm:mt-6 max-sm:top-[85%] w-full flex justify-center items-center">
+      <div className="absolute sm:bottom-2 max-lg:top-[90%] sm:mt-6 max-sm:top-[90%] w-full flex justify-center items-center">
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
             <motion.div

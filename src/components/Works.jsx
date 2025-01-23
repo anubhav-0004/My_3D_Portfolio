@@ -76,7 +76,7 @@ const ProjectCard = ({ project }) => {
           href={project.source_code_link}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-blue-500 hover:text-blue-400 hover:underline"
+          className="text-blue-500 hover:text-blue-400 hover:underline max-sm:underline"
         >
           View Source Code
         </a>
@@ -93,7 +93,7 @@ const Projects = () => {
           My Recent Work
         </p>
         <h2 className={`${styles.sectionHeadText} text-center`}>
-          Projects.
+          Projects
         </h2>
       </motion.div>
 
