@@ -30,7 +30,7 @@ const Hero = () => {
             Nehru Institute of Technology, Sultanpur. I have skills in C, C++,
             HTML, CSS, TailwindCSS, ReactJS, JavaScript, ReduxJS, Node.js and
             MongoDB. I’ve worked on projects to enhance my frontend development
-            skills and am currently seeking internships opportunities,
+            skills and am currently seeking internship opportunities,
             specializing in ReactJS.
           </p>
           <p className={`${styles.heroSubText} text-white-100 mt-2 lg:hidden max-sm:hidden`}>
