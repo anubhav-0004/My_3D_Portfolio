@@ -87,7 +87,7 @@ const ProjectCard = ({ project }) => {
 
 const Projects = () => {
   return (
-    <>
+    <div id="projects">
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} text-center`}>
           My Recent Work
@@ -104,7 +104,7 @@ const Projects = () => {
           ))}
         </VerticalTimeline>
       </div>
-    </>
+    </div>
   );
 };
 
